@@ -1,16 +1,11 @@
-<p align='center'>
-  <img src='https://repository-images.githubusercontent.com/286295150/b1b1be80-354a-11eb-87c0-5dc96cae2bd9' alt='Vitesse - Opinionated Vite Starter Template' width='600'/>
-</p>
-
-<p align='center'>
-Vitesse Add-On Samples<br>
-<sub><em>Different branches of this repo show how to add different things to a Vitesse setup</em></sub>
-</p>
+# Vitesse Add-On Samples
+Different branches of this repo show how to add different things to a Vitesse setup
 
 None of these are real hard to do on your own, but I thought it might save others looking for similar setups some time.
 
 
-## Features
+## Storybook
 
-- Storybook
-- Prettier
+This branch show a Storybook integration with their brand new (v6.2) Vue3 support.
+
+Storybook still uses Webpack, so one has to be careful referencing sources, but if your components are fairly well contained (as they should be) this works.

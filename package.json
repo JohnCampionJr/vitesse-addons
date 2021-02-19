@@ -2,7 +2,9 @@
   "private": true,
   "scripts": {
     "dev": "vite --port 3333 --open",
-    "build": "cross-env NODE_ENV=production vite-ssg build"
+    "build": "cross-env NODE_ENV=production vite-ssg build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "@vueuse/core": "^4.1.1",
@@ -39,7 +41,15 @@
     "vite-plugin-pages": "^0.4.4",
     "vite-plugin-pwa": "^0.4.7",
     "vite-plugin-vue-layouts": "^0.2.2",
-    "vite-ssg": "^0.8.9"
+    "vite-ssg": "^0.8.9",
+    "@storybook/addon-actions": "6.2.0-alpha.29",
+    "@storybook/addon-controls": "6.2.0-alpha.29",
+    "@storybook/addon-essentials": "6.2.0-alpha.29",
+    "@storybook/addon-links": "6.2.0-alpha.29",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/addon-storyshots": "6.2.0-alpha.29",
+    "@storybook/vue3": "6.2.0-alpha.29",
+    "vue-loader": "^16.1.2"
   },
   "eslintConfig": {
     "extends": "@antfu/eslint-config",
