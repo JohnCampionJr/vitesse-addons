@@ -22,10 +22,13 @@
     "@typescript-eslint/eslint-plugin": "^4.15.1",
     "@vitejs/plugin-vue": "^1.1.4",
     "@vue/compiler-sfc": "^3.0.5",
+    "@vue/eslint-config-prettier": "^6.0.0",
     "@vue/server-renderer": "^3.0.5",
     "autoprefixer": "^10.2.4",
     "cross-env": "^7.0.3",
     "eslint": "^7.20.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1",
     "markdown-it-prism": "^2.1.4",
     "pnpm": "^5.17.2",
     "postcss": "^8.2.6",
@@ -42,7 +45,11 @@
     "vite-ssg": "^0.8.9"
   },
   "eslintConfig": {
-    "extends": "@antfu/eslint-config",
+    "extends": [
+      "@antfu/eslint-config",
+      "@vue/prettier",
+      "@vue/prettier/@typescript-eslint"
+    ],
     "rules": {
       "no-unused-vars": "off",
       "@typescript-eslint/no-unused-vars": "off"
