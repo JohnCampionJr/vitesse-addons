@@ -6,5 +6,5 @@ None of these are real hard to do on your own, but I thought it might save other
 
 ## Features
 
-- Storybook
-- Prettier
+- [Storybook](https://github.com/JohnCampionJr/vitesse-addons/tree/storybook/)
+- [Prettier](https://github.com/JohnCampionJr/vitesse-addons/tree/prettier)
