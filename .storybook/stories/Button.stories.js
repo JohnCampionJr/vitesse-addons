@@ -1,4 +1,4 @@
-import MyButton from '../../src/components/Button.vue'
+import MyButton from '~/components/Button.vue'
 
 export default {
   title: 'Example/Button',
